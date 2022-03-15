@@ -161,3 +161,79 @@ input, textarea {
   padding-top: 20px;
   text-align: center;
 }
+
+header {
+    width: 100%;
+    height: 65px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 13%);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 124px;
+    margin: 10px 0;
+    float: left;
+}
+
+a.content {
+    line-height: 65px;
+    padding: 0 25px;
+    color: #474747;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+a.content:hover {
+    background-color: rgb(28, 240, 28, 0.3);
+}
+
+.header-right {
+    float: right;
+    height: 35px;
+    width: auto;
+    margin: 15px;
+    background-color: rgb(13, 224, 108);
+    border-radius: 20px;
+}
+.header-right a {
+    line-height: 35px;
+    padding: 0 20px;
+    color: white;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.header-right:hover {
+    background-color: rgb(13, 221, 134, 0.8);
+    transition: all 0.5s;
+}
+
+.header-right:active {
+    background-color: rgb(12, 196, 94);
+}
+
+span.menu-icon {
+    color: #474747;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+
+footer img {
+    width: 124px;
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
