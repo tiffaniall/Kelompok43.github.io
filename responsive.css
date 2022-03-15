@@ -42,4 +42,15 @@
 	.lesson p{
 		font-size: 60px;
 	}
+  span.menu-icon {
+        display: block;
+    }
+
+    .header-content {
+        display: none;
+    }
+
+    footer {
+        text-align: center;
+    }
 }
