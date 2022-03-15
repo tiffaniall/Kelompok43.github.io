@@ -126,15 +126,15 @@ textarea {
 
 .lesson-icon img {
   opacity: 0.6;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 30px;
 }
 
 .lesson-icon p {
   position: absolute;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 50px;
   top: 30px;
   width: 100%;
   color: #ffffff;
