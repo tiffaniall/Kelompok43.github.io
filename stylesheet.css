@@ -11,8 +11,12 @@ a {
   text-decoration: none;
 }
 
+.clear {
+  clear: left;
+}
+
 .container {
-  width: 1170px;
+  max-width: 1170px;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
@@ -122,19 +126,29 @@ textarea {
 
 .lesson-icon {
   position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 300px;
+  }
 }
 
 .lesson-icon img {
   opacity: 0.6;
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   border-radius: 30px;
 }
 
 .lesson-icon p {
   position: absolute;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 25px;
   top: 30px;
   width: 100%;
   color: #ffffff;
@@ -149,7 +163,7 @@ textarea {
 }
 
 .message:active {
-  position: relative;
+  position: relaatives;
   top: 7px;
   box-shadow: none;
 }
@@ -200,4 +214,12 @@ textarea {
 
 li {
   list-style: none;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
 }
