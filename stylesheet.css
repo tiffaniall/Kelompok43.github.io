@@ -101,14 +101,14 @@ input, textarea {
 
 .lesson-wrapper{
 	padding-bottom: 80px;
-	background-color: #7fffd4;
+	background-color: #1BAA78;
 	text-align: center;
 }
 
 .heading{
 	padding-top: 60px;
 	padding-bottom: 30px;
-	color: #5f5d60;
+	color: #C3FFDC;
 }
 
 .heading h2{
@@ -153,4 +153,11 @@ input, textarea {
 	position: relative;
 	top: 7px;
 	box-shadow: none;
+}
+
+.contact-form{
+  background-color: #5EE2A0;
+  height: 600px;
+  padding-top: 20px;
+  text-align: center;
 }
