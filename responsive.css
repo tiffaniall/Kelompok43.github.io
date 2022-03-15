@@ -5,6 +5,10 @@
     font-size: 30x;
   }
 
+  
+	.lesson{
+		width: 50%;
+	}
 }
 
 /* Untuk Smartphone */
@@ -31,4 +35,11 @@
   .top-wrapper p {
     font-size: 22px;
   }
+  
+	.lesson{
+		width: 100%;
+	}
+	.lesson p{
+		font-size: 60px;
+	}
 }
