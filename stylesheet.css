@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: 'Roboto Condensed', sans-serif;;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 a {
@@ -22,7 +22,7 @@ a {
   padding: 180px 0 100px 0;
   background-image: url(https://raw.githubusercontent.com/tiffaniall/fga_image/main/bg.jpg);
   background-size: contain;
-  color: #00380F;
+  color: #00380f;
   text-align: center;
 }
 
@@ -38,7 +38,7 @@ a {
 .top-wrapper p {
   opacity: 0.9;
   margin-bottom: 7px;
-  color: #00380F;
+  color: #00380f;
   font-weight: normal;
   line-height: 30px;
   font-size: 20px;
@@ -57,8 +57,8 @@ a {
 }
 
 .signup {
-  background-color: #EEFFFA;
-  color: #00380F;
+  background-color: #eefffa;
+  color: #00380f;
 }
 
 .facebook {
@@ -79,12 +79,12 @@ a {
 }
 
 /* Gantikan margin-right milik fa ke 5px */
-.fa{
+.fa {
   margin-right: 5px;
 }
 
-
-input, textarea {
+input,
+textarea {
   width: 500px;
   margin-top: 10px;
   margin-bottom: 30px;
@@ -98,66 +98,106 @@ input, textarea {
   color: #889eab;
 }
 
-
-.lesson-wrapper{
-	padding-bottom: 80px;
-	background-color: #1BAA78;
-	text-align: center;
+.lesson-wrapper {
+  padding-bottom: 80px;
+  background-color: #1baa78;
+  text-align: center;
 }
 
-.heading{
-	padding-top: 60px;
-	padding-bottom: 30px;
-	color: #C3FFDC;
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #c3ffdc;
 }
 
-.heading h2{
-	font-weight: normal;
+.heading h2 {
+  font-weight: normal;
 }
 
-.lesson{
-	float: left;
-	width: 25%;
-	padding-bottom: 50px;
+.lesson {
+  float: left;
+  width: 25%;
+  padding-bottom: 50px;
 }
 
-.lesson-icon{
-	position: relative;
+.lesson-icon {
+  position: relative;
 }
 
-.lesson-icon img{
-	opacity: 0.6;
-	width: 200px;
-	height: 200px;
-	border-radius: 30px;
+.lesson-icon img {
+  opacity: 0.6;
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
 }
 
-.lesson-icon p{
-	position: absolute;
-	font-weight: bold;
-	font-size: 60px;
-	top: 30px;
-	width: 100%;
-	color: #ffffff;
+.lesson-icon p {
+  position: absolute;
+  font-weight: bold;
+  font-size: 60px;
+  top: 30px;
+  width: 100%;
+  color: #ffffff;
 }
 
-.message{
-	padding: 15px 40px;
-	background-color: #5dca88;
-	cursor: pointer;
-	box-shadow: 0 7px #1a7940;
-	border-radius: 30px;
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+  border-radius: 30px;
 }
 
-.message:active{
-	position: relative;
-	top: 7px;
-	box-shadow: none;
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
 }
 
-.contact-form{
-  background-color: #5EE2A0;
+.contact-form {
+  background-color: #5ee2a0;
   height: 600px;
   padding-top: 20px;
   text-align: center;
+}
+
+.header {
+  background-color: #1a7940;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 30px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.footer {
+  background-color: #1a7940;
+  color: #fff;
+  height: 150px;
+  padding: 20px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 30px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 15px;
+}
+
+li {
+  list-style: none;
 }
