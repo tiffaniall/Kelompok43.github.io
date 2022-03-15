@@ -97,3 +97,60 @@ input, textarea {
   background-color: #dee7ec;
   color: #889eab;
 }
+
+
+.lesson-wrapper{
+	padding-bottom: 80px;
+	background-color: #7fffd4;
+	text-align: center;
+}
+
+.heading{
+	padding-top: 60px;
+	padding-bottom: 30px;
+	color: #5f5d60;
+}
+
+.heading h2{
+	font-weight: normal;
+}
+
+.lesson{
+	float: left;
+	width: 25%;
+	padding-bottom: 50px;
+}
+
+.lesson-icon{
+	position: relative;
+}
+
+.lesson-icon img{
+	opacity: 0.6;
+	width: 200px;
+	height: 200px;
+	border-radius: 30px;
+}
+
+.lesson-icon p{
+	position: absolute;
+	font-weight: bold;
+	font-size: 60px;
+	top: 30px;
+	width: 100%;
+	color: #ffffff;
+}
+
+.message{
+	padding: 15px 40px;
+	background-color: #5dca88;
+	cursor: pointer;
+	box-shadow: 0 7px #1a7940;
+	border-radius: 30px;
+}
+
+.message:active{
+	position: relative;
+	top: 7px;
+	box-shadow: none;
+}
