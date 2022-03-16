@@ -134,7 +134,7 @@ textarea {
     left: 0px;
   }
   to {
-    left: 300px;
+    left: 100px;
   }
 }
 
@@ -163,7 +163,7 @@ textarea {
 }
 
 .message:active {
-  position: relaatives;
+  position: relative;
   top: 7px;
   box-shadow: none;
 }
